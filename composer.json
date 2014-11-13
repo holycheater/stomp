@@ -5,9 +5,9 @@
     "license": "MIT",
     "require": {
         "php": ">=5.3.2",
-        "evenement/evenement": "~1.0",
+        "evenement/evenement": "~2.0",
         "react/socket": "0.3.*",
-        "react/promise": "~1.0"
+        "react/promise": "~2.1"
     },
     "autoload": {
         "psr-0": { "React\\Stomp": "src" }
