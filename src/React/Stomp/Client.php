@@ -84,7 +84,7 @@ class Client extends EventEmitter
         );
         $this->output->sendFrame($frame);
 
-        return $newPromise;
+        return $this->connectDeferred->promise();
     }
 
     public function send($destination, $body, array $headers = array())
